@@ -1,0 +1,21 @@
+{
+  "name": "deichholz/dep-logger",
+  "description": "Singleton logger to references to deprecated code.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dan Eichholz",
+      "email": "dan@clanof6.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "DepLogger":        "src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.22"
+  }
+
+}
